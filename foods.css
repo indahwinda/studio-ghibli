@@ -1,0 +1,71 @@
+body {
+	background-image: url("cute.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+	background-size: 1300px 700px;
+	margin: 0;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto
+}
+header h1{
+	color: #122D3B;
+	font-family: "Honey";
+	font-size: 470%;
+	text-align: center; 
+	line-height: 200%;
+}
+
+h2{
+	color: #446B7F;
+	font-family: "Bodoni Bd BT";
+	font-size: 160%;
+	text-align: center; 
+}
+.topnav {
+	background-color:#122D3B ;
+	overflow: hidden;
+}
+.topnav a:hover:not(.active) {
+  background-color: #FFE4C4;
+  color: black;
+}  
+  /* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	display: block;
+	color: white ;
+	text-align: center;
+	padding: 14px 70px;
+	text-decoration: none;
+	font-size: 18px;
+}
+  
+  /* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+	display: none;
+}
+.topnav.responsive a {
+	  float: none;
+	  display: block;
+	  text-align: left;
+}
+div.responsive img{
+ 	width: 100%;
+ 	height: auto;
+}
+@media only screen and (max-width: 500px) {
+	.food {
+		width: 100%;
+	}
+	.food p{
+		font-size: 120%;
+	}
+	footer {
+	background-color: transparent;
+	padding: 1px;
+	text-align: center;
+	color: white;
+	}
+}
